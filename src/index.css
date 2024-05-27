@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sombra {
+  box-shadow: inset 0 -100px 0 #282a2d;
+}
+
+.gradienteimg {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
